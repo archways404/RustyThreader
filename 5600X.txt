@@ -1,0 +1,19 @@
+-> cargo clean
+
+-> hyperfine --warmup 3 'cargo run --release'
+
+Benchmark 1: cargo run --release
+  Time (mean ± σ):     202.4 ms ±  10.8 ms    [User: 118.3 ms, System: 101.4 ms]
+  Range (min … max):   185.2 ms … 223.2 ms    15 runs
+
+
+
+--> cargo run --release
+
+Single-threaded Fibonacci benchmark: result = 13584083, time = 38.8412ms
+
+Multi-threaded Fibonacci benchmark: result = 13584083, time = 20.3532ms
+
+Floating-point benchmark: result = 21081849486.439312, time = 20.5834ms
+
+Memory access benchmark: time = 100ns

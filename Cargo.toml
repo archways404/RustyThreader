@@ -1,0 +1,11 @@
+[package]
+name = "RustyThreader"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+rayon = "1.5.1"
+num = "0.4"
+
+[dev-dependencies]
+criterion = "0.1"
