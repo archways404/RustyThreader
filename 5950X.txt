@@ -1,0 +1,12 @@
+Benchmark 1: cargo run--release 
+  Time (mean ± σ):     166.7 ms ±   3.5 ms    [User: 96.8 ms, System: 74.7 ms]
+  Range (min … max):   159.4 ms … 171.7 ms    16 runs
+
+
+Single-threaded Fibonacci benchmark: result = 13584083, time = 29.0057ms
+
+Multi-threaded Fibonacci benchmark: result = 13584083, time = 13.4968ms
+
+Floating-point benchmark: result = 21081849486.439312, time = 18.9735ms
+
+Memory access benchmark: time = 300ns
